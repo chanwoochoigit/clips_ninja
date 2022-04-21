@@ -91,7 +91,7 @@ class VidCrawler():
     """use youtube api to get texts (in json) including loads of video ids 
         -> ids to be extracted using the method extract_vid_ids_from_json"""
     def get_text_data_using_api(self):
-        api_key = 'AIzaSyC01e0xgVdQGzDKf0eCuj6c7VjlOAquKiI'     #my api key for Google Auth
+        api_key = '---------------------------------------'     #my api key for Google Auth
         api_cost_counter = 0
         channel_ids = self.load_files('channel_ids.txt')
         for i, channel_id in enumerate(channel_ids):
